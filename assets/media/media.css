@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px){
+  
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  body{
+    margin: 0;
+    padding: 0; 
+  }
+
+/*PÁGINA PRINCIPAL*/
+  #row1{
+    background-color: #FDEBD0    ;
+    height: 100vh;
+  }
+
+  #title{
+    color: #D35400;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 70%;
+    font-size: 80px;
+    font-weight: 200;
+  }
+
+/*INICIO*/
+  #container2{
+    background-color: #FDEBD0  ;
+    height: 100vh;
+  }
+
+  #row2 h2{
+    text-align: center;
+    color: #D35400;
+    font-weight: 200;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+
+  }
+
+  #row2 hr{
+    width: 90%;
+    margin-top: -4%;
+    margin-left: 4.5%;
+    border: 1px dotted #B03A2E;
+  }
+
+/*MAPA*/
+  #row3{
+    margin-left: -1%;
+  }
+
+  /*INPUT*/
+  #row4 h3{
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #B03A2E;
+    font-weight: 900;
+  }
+
+  #row4 select{
+    width: 205%;
+    margin-left: 20%;
+    border-radius: 7px;
+  }
+
+/*IMAGENES*/
+  #row5 img{
+    width: 30%;
+    height: 30%;
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+
+  #arabe2 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  #peruana2 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  #venezolana2 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+}
